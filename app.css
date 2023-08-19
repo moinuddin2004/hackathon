@@ -1,0 +1,499 @@
+body{
+
+    background-color: rgb(224, 228, 240);
+    color: rgb(24, 23, 24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+#imgt{
+width: 100px;
+height: 100px;
+margin: 20px auto;
+
+}
+html{
+
+    overflow-x: hidden;
+
+}
+
+body>center>a{
+
+
+    /* text-decoration: underline solid #ffffff; */
+    text-decoration-color: #ffffff;
+
+
+}
+
+
+.theduo {
+
+    background: linear-gradient(266deg, rgb(182, 182, 183) 0%, rgb(115, 108, 115) 100%); 
+    width: 80vw;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+    
+
+}
+
+.theduo-button {
+
+    width: 7rem;
+    height: 4rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 0.5rem;
+    border: 0.25rem solid white;
+    margin-left: 0.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(51, 46, 49);
+
+
+}
+
+.create-button{
+
+    width: 13rem;
+    height: 4rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 0.5rem;
+    border: 0.25rem solid white;
+    margin-left: 0.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(21, 20, 21);
+    margin: 10px auto;
+    font-weight: bold;
+
+}
+
+.create-button:hover{
+
+    background-color: rgb(219, 142, 195);
+    color: #ffffff;
+    border: none !important;
+
+
+}
+
+.create-button:active{
+
+    background-color: rgba(0,77,247,1);
+    color: rgb(180, 155, 172);
+
+}
+
+
+
+
+.theduo textarea {
+
+    border-radius: 1rem;
+    background-color: rgba(31,32,34,1);
+    cursor: pointer ;
+    color: #ffffff;
+    width: 100%;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    min-height: 200px;
+
+}
+
+
+#showdiv{
+
+    
+/* border: 2px solid #000000; */
+padding: 10px;
+border-radius: 20px;
+margin-bottom: 10px;
+width: 80vw;
+
+}
+
+.delete-button{
+
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    /* color: rgba(0,77,247,1); */
+    border: none;
+    max-width: 20px;
+
+}
+#upd{
+
+    background-color: rgba(0, 0, 0,0); /* Red background */
+    color: #0ba6ed; /* White text color */
+    padding: 5px 10px;
+    border: none;
+    /* cursor: pointer; */
+    margin-right: 5px;
+}
+#del{
+    
+    background-color: rgba(0, 0, 0,0); /* Red background */
+    color: #0ba6ed; /* White text color */
+    padding: 5px 10px;
+    border: none;
+    /* cursor: pointer; */
+    margin-right: 5px;
+}
+
+.delete-button svg{
+
+    pointer-events: none;
+    
+}
+
+#showdiv>div{
+
+    background: linear-gradient(90deg, rgb(237, 232, 232) 0%, rgb(110, 110, 113) 100%);
+    min-width: 80vw;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    
+    
+
+}
+
+.postDiv{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.userBadge{
+
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.postUser{
+
+    border-right: 5px solid #ffffff;
+    text-align: center ;
+    max-width: 200px;
+    word-wrap: break-word;
+    font-family: 'Bebas Neue';
+
+}
+
+.comment-div{  
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(20, 10, 17);
+    background: linear-gradient(266deg, rgb(21, 20, 20) 0%, rgb(185, 185, 187) 100%); 
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.comment-user{
+
+    /* border-right: 5px solid #ffffff; */
+    text-align: center ;
+    max-width: 200px;
+    word-wrap: break-word;
+    font-family: 'Bebas Neue';
+
+
+}
+
+.comment-badge{
+
+    width: 2rem;
+    height: 2rem;
+
+
+}
+
+.comment-div input{
+
+
+    width: 85%;
+    border: 2px solid #ffffff;
+    height: 3rem;
+    border-radius: 1rem;
+    color: rgb(255,0,174);
+    padding: 1rem;
+
+
+
+}
+
+.comment-button{
+
+    width: 6rem;
+    height: 3rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(255,0,174);
+    border-radius: 2rem;
+    border: 0.25rem solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.comment-logo{
+
+    width: 20px;
+    height: 20px;
+
+
+}
+
+.new-comment{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(23, 21, 23);
+    background: linear-gradient(266deg, rgb(129, 113, 124) 0%, rgba(0,77,247,1) 100%); 
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.delete-comment{
+
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    max-width: 20px;
+
+}
+
+.delete-comment svg {
+
+    pointer-events: none;
+
+
+}
+
+.posts{
+
+    /* background-color: #ffffff; */
+    /* background: linear-gradient(90deg, rgba(8,67,249,1) 0%, rgba(240,0,212,1) 100%); */
+    /* background: linear-gradient(90deg, rgb(149, 42, 136) 0%, rgba(8,67,249,1) 100%); */
+    background: linear-gradient(90deg, rgb(237, 232, 232) 0%, rgb(110, 110, 113) 100%);
+
+    /* color: rgba(0,77,247,1); */
+    color: #ffffff;
+    border-radius: 1rem;
+    text-align: center;
+    width: 85%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Satisfy','Bebas Neue';
+    font-size: 1.7rem;
+    font-weight: bold;
+    /* border: 0.4rem solid #ffffff; */
+
+}
+
+.postDiv{
+
+    /* background-color: #000000; */
+    /* background-color: #ffffff; */
+    /* color: rgba(0,77,247,1); */
+    border-radius: 1rem;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+
+
+}
+
+.comment-text {
+
+    /* background-color: #ffffff; */
+    border-radius: 1rem;
+    text-align: center;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255,0,174);
+    padding: 10px;
+    color: #ffffff;
+    font-weight: lighter;
+    font-family: 'Century Gothic','Ms Madi';
+    font-size: 1.2rem;
+
+
+
+}
+
+
+
+.emptySpace2{
+
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    min-width: 20px;
+
+}
+
+.emptyspace{
+
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    /* color: rgba(0,77,247,1); */
+    border: none;
+    max-width: 20px;
+
+}
+
+.commentInfo{
+
+        border-right: 5px solid rgb(255,0,174);
+        text-align: center ;
+        min-width: 100px;
+        max-width: 100px;
+        word-wrap: break-word;
+        font-family: 'Bebas Neue';
+
+
+}
+
+.posting-div h1{
+
+    font-family: 'Great Vibes';
+    font-size: 8rem;
+    background: -webkit-linear-gradient(rgba(240,0,212,1), rgba(8,67,249,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.posting-div{
+
+    margin: none !important;
+    width: 100%;
+
+}
+
+.userLoggedin{
+
+    width: 100%;
+    min-height: 150px;
+    /* background: linear-gradient(90deg, rgba(240,0,212,1) 0%, rgba(8,67,249,1) 100%); */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.userLoggedin button {
+
+    width: 10rem;
+    height: 4rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 0.5rem;
+    border: 0.25rem solid rgb(23, 23, 23);
+    margin-left: 0.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(55, 52, 54);
+    font-weight: bold;
+
+}
+
+#loggedin{
+
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#loggedin a{
+
+    text-decoration: none;
+    color: rgba(8,67,249,1);
+
+}
+
+
+.forfade{
+
+    background: linear-gradient(90deg, rgba(240,0,212,0.3) 0%, rgba(8,67,249,0.3) 100%);
+
+    
+}
+
+
+#errorButton{
+
+    position: absolute;
+    top: -30000px;
+    left: -30000px;
+
+
+}
+
+#exampleModalLabel1{
+
+
+    color: #ff0033;
+    font-size: 30px !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+.required{
+
+    color: #ff0033;
+
+}
+
+.theError{
+
+    color: #ff0033;
+
+}
+
+/* .newDivClass{
+
+    width: 80vw;
+
+
+} */
+
+
